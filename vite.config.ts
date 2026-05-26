@@ -10,7 +10,6 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/3D-Spin-Name/',
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
